@@ -6,6 +6,6 @@ internal object IsVIPEPFingerprint : MethodFingerprint(
     customFingerprint = custom@{ methodDef, _ ->
         if (!methodDef.definingClass.endsWith("RemoteUser;")) return@custom false
 
-        methodDef.name == "isVIPEP"
+        methodDef.name == "isVIPEP_a"
     }
 )

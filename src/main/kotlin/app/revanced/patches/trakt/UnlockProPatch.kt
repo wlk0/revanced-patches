@@ -12,7 +12,7 @@ import app.revanced.patches.trakt.fingerprints.RemoteUserFingerprint
 
 @Patch(
     name = "Unlock pro",
-    compatiblePackages = [CompatiblePackage("tv.trakt.trakt", ["1.1.1"])]
+    compatiblePackages = [CompatiblePackage("tv.trakt.trakt", ["1.4.1"])]
 )
 @Suppress("unused")
 object UnlockProPatch : BytecodePatch(
