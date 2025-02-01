@@ -6,7 +6,7 @@ internal val isVIPEPFingerprint = fingerprint {
     custom { method, classDef ->
         if (!classDef.endsWith("RemoteUser;")) return@custom false
 
-        method.name == "isVIPEP"
+        method.name == "isVIPEP_a"
     }
 }
 
@@ -14,7 +14,7 @@ internal val isVIPFingerprint = fingerprint {
     custom { method, classDef ->
         if (!classDef.endsWith("RemoteUser;")) return@custom false
 
-        method.name == "isVIP"
+        method.name == "isVIP_a"
     }
 }
 

@@ -7,7 +7,7 @@ import app.revanced.patcher.patch.bytecodePatch
 val unlockProPatch = bytecodePatch(
     name = "Unlock pro",
 ) {
-    compatibleWith("tv.trakt.trakt"("1.1.1"))
+    compatibleWith("tv.trakt.trakt"("1.4.1"))
 
     execute {
         arrayOf(isVIPFingerprint, isVIPEPFingerprint).onEach { fingerprint ->
